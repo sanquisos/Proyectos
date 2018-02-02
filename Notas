@@ -1,0 +1,32 @@
+Maestro de clientes
+- RUC
+- RAZON SOCIAL
+- DIRECCION
+- LOGO / Color Institucional
+- CONTACTO (REPRESENTANTE LEGAL)
+  Solo se permite 1
+  El representante legal será administrador de ese cliente por default
+
+Maestro de sucursales
+- NOMBRE
+- DIRECCION
+- CONTACTO (USUARIO)
+  Debe haber almenos 1
+- Perfil (Administrador, Empleado)
+
+Maestro de contactos
+  * MEDIOS DE COMUNICACION
+    Obligatorio almenos un nro de telefono, email
+  * NOMBRES / APELLIDOS
+  * EDAD
+    Debe ser mayor de edad
+  * DIRECCION
+  * REFERENCIA
+  * TIPO/NRO DE DOCUMENTO
+
+Maestro de Perfiles
+- ADMINSITRADOR
+  Con acceso a todas als funcionalidades de la aplicacion
+
+- EMPLEADO
+  Con acceso solo a la Carga de OC y descarga de reporte de Codigos de Barra
